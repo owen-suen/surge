@@ -6,8 +6,8 @@
 
 [Rule]
 # 广告过滤
-DOMAIN,sdk.e.qq.com you,REJECT
-DOMAIN,tangram.e.qq.com,REJECT
+DOMAIN,sdk.e.qq.com you,REJECT,extended-matching,pre-matching
+DOMAIN,tangram.e.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT,extended-matching,pre-matching
