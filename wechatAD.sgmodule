@@ -8,11 +8,11 @@
 # 广告过滤
 DOMAIN,sdk.e.qq.com you,REJECT
 DOMAIN,tangram.e.qq.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsmsdy.video.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,hudong.alicdn.com,REJECT
-DOMAIN-SUFFIX,wxs.qq.com,REJECT
+DOMAIN-SUFFIX,wxs.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,umengcloud.com,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
@@ -98,6 +98,12 @@ DOMAIN-SUFFIX,mob.com,REJECT
 DOMAIN-SUFFIX,msedge.net,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
 
+[Body Rewrite]
+http-response-jq ^https:\/\/mcsp\.cloudpnr\.com\/api\/miniapp\/popular\/T_MINIAPP$ 'delpaths([["data"]])'
+http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",0]])'
+http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",1]])'
+http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",2]])'
+
 [Rewrite]
 # 中石油去开屏广告发现
 ^https:\/\/app\.95504\.net\/app\/json\/page_ad\/initPageAd\?ver= - reject
@@ -108,37 +114,39 @@ DOMAIN-SUFFIX,xdrig.com,REJECT
 # 乘车码 @jinlvei ccmsupport-sz.tenpay.com
 ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
 # 移除公众号中的推广内容 //mp.weixin.qq.com
-^http:\/\/\w+\.wxs\.qq\.com\/\d+\/\d+\/(snscosdownload|snssvpdownload)\/(SH|SZ)\/reserved\/\w+ - reject-dict
-^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? - reject-dict
+^http:\/\/\w+\.wxs\.qq\.com\/\d+\/\d+\/(snscosdownload|snssvpdownload)\/(SH|SZ)\/reserved\/\w+ data-type=text data="{}" status-code=200
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? data-type=text data="{}" status-code=200
 # 星巴克 3pp.starbucks.com.cn
-^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject-dict
-^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject-dict
-^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/global - reject-dict
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup data-type=text data="{}" status-code=200
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner data-type=text data="{}" status-code=200
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/global data-type=text data="{}" status-code=200
 # 货拉拉 qapi.huolala.cn, appuser-static.huolala.cn
-^https:\/\/qapi\.huolala\.cn\/ads - reject-dict
-^https:\/\/qapi\.huolala\.cn\/home_new_user - reject-dict
-^https:\/\/qapi\.huolala\.cn\/get_service_list - reject-dict
-^https:\/\/appuser-static\.huolala\.cn\/imgs - reject-dict
-# 奈雪 tm-api.pin-dao.cn
-^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/index\/activeConfig\/v2 - reject-dict
-^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes - reject-dict
+^https:\/\/qapi\.huolala\.cn\/ads data-type=text data="{}" status-code=200
+^https:\/\/qapi\.huolala\.cn\/home_new_user data-type=text data="{}" status-code=200
+^https:\/\/qapi\.huolala\.cn\/get_service_list data-type=text data="{}" status-code=200
+^https:\/\/appuser-static\.huolala\.cn\/imgs data-type=text data="{}" status-code=200
 # 华住会 api-fouth-mem.huazhu.com
-^https:\/\/api-fouth-mem\.huazhu\.com\/api\/rights\/bannerList - reject-dict
+^https:\/\/api-fouth-mem\.huazhu\.com\/api\/rights\/bannerList data-type=text data="{}" status-code=200
 # 首旅如家 app.homeinns.com, wx.bthhotels.com
-^https:\/\/wx\.bthhotels\.com\/miniapp\/weixin\/v1\/home\/index_banner - reject-dict
-^https:\/\/app\.homeinns\.com\/api\/v6\/indexs - reject-dict
-^https:\/\/app\.homeinns\.com\/api\/v5\/local - reject-dict
-^https:\/\/app\.homeinns\.com\/api\/v5\/index - reject-dict
-# 蜜雪冰城 mxsa.mxbc.net
-^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/adplace\/query - reject-dict
+^https:\/\/wx\.bthhotels\.com\/miniapp\/weixin\/v1\/home\/index_banner data-type=text data="{}" status-code=200
+^https:\/\/app\.homeinns\.com\/api\/v6\/indexs data-type=text data="{}" status-code=200
+^https:\/\/app\.homeinns\.com\/api\/v5\/local data-type=text data="{}" status-code=200
+^https:\/\/app\.homeinns\.com\/api\/v5\/index data-type=text data="{}" status-code=200
 # 携程旅行 m.ctrip.com
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject-dict
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent - reject-dict
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds data-type=text data="{}" status-code=200
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent data-type=text data="{}" status-code=200
 # 顺丰速运+ @可莉🅥
-^https:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query - reject-dict
-^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList - reject-dict
+^https:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query data-type=text data="{}" status-code=200
+^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList data-type=text data="{}" status-code=200
 # Meituan
 ^http:\/\/103\.37\.155\.60\/fetch - reject-dict
 
+[Script]
+微信外部链接解锁 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://kelee.one/Resource/Script/Weixin/Weixin_external_links_unlock.js, requires-body=true
+# M Stand api.prod.dj.mstand.cn, api.prod.dj.mstand.cn
+M Stand去广告 = type=http-response, pattern=^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/M_Stand/M_Stand.js, requires-body=true
+# EMS中国邮政物流速递 @TEAXS ump.ems.com.cn
+EMS中国邮政物流速递去广告 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js, requires-body=true
+
 [MITM]
-hostname = %APPEND% app.95504.net, minipro.95504.net, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, app.homeinns.com, wx.bthhotels.com, mxsa.mxbc.net
+hostname = %APPEND% app.95504.net, minipro.95504.net, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, app.homeinns.com, wx.bthhotels.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com
