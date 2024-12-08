@@ -13,8 +13,8 @@ DOMAIN,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,hudong.alicdn.com,REJECT
 DOMAIN-SUFFIX,wxs.qq.com,REJECT,extended-matching,pre-matching
-DOMAIN-SUFFIX,umengcloud.com,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,umeng.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,doglobal.net,REJECT
 DOMAIN-SUFFIX,apd-pcdnwxnat.teg.tencent-cloud.net,REJECT
