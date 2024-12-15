@@ -1,1 +1,5 @@
-DOMAIN-SUFFIX mozilla.cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,kelee.one
+DOMAIN-SUFFIX,whatshub.top
+DOMAIN-SUFFIX,nsloon.com
+DOMAIN-SUFFIX,surge-activation.com
