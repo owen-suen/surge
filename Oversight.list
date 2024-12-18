@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,nsloon.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,singular.net
-DOMAIN-SUFFIX,api.wise.com
+DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,gitbook.com
@@ -43,3 +43,8 @@ DOMAIN-SUFFIX,pixelcut.app
 DOMAIN-SUFFIX,mux.com
 DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,Shrtm.nu
+DOMAIN-SUFFIX,cloudns.net
+DOMAIN-SUFFIX,fastly.com
+DOMAIN-SUFFIX,intellimize.co
+DOMAIN-SUFFIX,intellimizeio.com
+DOMAIN-SUFFIX,ctfassets.net
