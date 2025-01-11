@@ -6,9 +6,11 @@ DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,about.google
 DOMAIN-SUFFIX,about.me
 DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,website-files.com
 DOMAIN-SUFFIX,akamaistream.net
 DOMAIN-SUFFIX,api.ai
 DOMAIN-SUFFIX,api.dropboxapi.com
