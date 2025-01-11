@@ -527,6 +527,7 @@ DOMAIN-SUFFIX,yimg.com,Proxy
 DOMAIN-SUFFIX,ying.com,Proxy
 DOMAIN-SUFFIX,yoyo.org,Proxy
 DOMAIN-SUFFIX,ytimg.com,Proxy
+DOMAIN-KEYWORD,gmail
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,103.2.28.0/24,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve
