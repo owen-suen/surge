@@ -7,8 +7,8 @@
 [Rule]
 # 广告过滤
 DOMAIN,log16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
-DOMAIN,mon16-normal-useast5.tiktokv.us,extended-matching,pre-matching
-DOMAIN,rtlog16-normal-useast5.tiktokv.us,extended-matching,pre-matching
+DOMAIN,mon16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
+DOMAIN,rtlog16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
 DOMAIN,sdk.e.qq.com you,REJECT,extended-matching,pre-matching
 DOMAIN,tangram.e.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT,extended-matching,pre-matching
