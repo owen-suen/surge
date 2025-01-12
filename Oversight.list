@@ -5,6 +5,7 @@ DOMAIN,steampipe.akamaized.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,about.google
 DOMAIN-SUFFIX,about.me
 DOMAIN-SUFFIX,abpchina.org
@@ -269,6 +270,7 @@ DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,hostodo.com
 DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,iana.org
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,ibllc.com
@@ -298,6 +300,7 @@ DOMAIN-SUFFIX,ixquick.com
 DOMAIN-SUFFIX,jampp.com
 DOMAIN-SUFFIX,java.com
 DOMAIN-SUFFIX,java.net
+DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,jellyfin.asia
 DOMAIN-SUFFIX,jellyfin.xeton.dev
 DOMAIN-SUFFIX,jmsooo.com
@@ -338,7 +341,7 @@ DOMAIN-SUFFIX,megaupload.com
 DOMAIN-SUFFIX,mickeycloud.com
 DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,mindnode.com
-DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,modmyi.com
@@ -387,6 +390,7 @@ DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.com.hk
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,prime-video.com
 DOMAIN-SUFFIX,public-trust.com
 DOMAIN-SUFFIX,pubmatic.com
@@ -515,6 +519,7 @@ DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 DOMAIN-SUFFIX,xda-developers.com
 DOMAIN-SUFFIX,xeeno.com
+DOMAIN-SUFFIX,xhamster.com
 DOMAIN-SUFFIX,xiti.com
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,yahoo.com
