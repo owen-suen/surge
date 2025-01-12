@@ -5,6 +5,7 @@ DOMAIN,steampipe.akamaized.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN-SUFFIX,91selfie.com
 DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,about.google
 DOMAIN-SUFFIX,about.me
@@ -68,7 +69,9 @@ DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,box.net
 DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,btc620.com
 DOMAIN-SUFFIX,cachefly.net
+DOMAIN-SUFFIX,cdn77.org
 DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,cisco.com
 DOMAIN-SUFFIX,cl.ly
@@ -313,6 +316,7 @@ DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,justgetflux.com
 DOMAIN-SUFFIX,kat.cr
 DOMAIN-SUFFIX,kelee.one
+DOMAIN-SUFFIX,killcovid2021.com
 DOMAIN-SUFFIX,klip.me
 DOMAIN-SUFFIX,libsyn.com
 DOMAIN-SUFFIX,line-apps.com
