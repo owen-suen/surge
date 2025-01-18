@@ -7,7 +7,7 @@ DOMAIN,appleid.cdn-apple.com
 DOMAIN,audio-ssl.itunes.apple.com
 DOMAIN,captive.apple.com
 DOMAIN,configuration.apple.com
-DOMAIN,gateway.icloud.com.cn:443
+DOMAIN,gateway.icloud.com.cn
 DOMAIN,guzzoni.apple.com
 DOMAIN,gs-loc.apple.com
 DOMAIN,gs-loc-cn.apple.com
