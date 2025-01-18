@@ -22,9 +22,7 @@ DOMAIN-SUFFIX,bugly.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,doglobal.net,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,apd-pcdnwxnat.teg.tencent-cloud.net,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net,REJECT,extended-matching,pre-matching
-DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT,extended-matching,pre-matching
-DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,gepush.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,browser-intake-datadoghq.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,app-analytics-services.com,REJECT,extended-matching,pre-matching
