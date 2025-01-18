@@ -6,6 +6,8 @@
 
 [Rule]
 # 广告过滤
+DOMAIN,vegslb.com,REJECT,extended-matching,pre-matching
+DOMAIN,smogfly.cloud,REJECT,extended-matching,pre-matching
 DOMAIN,bytegecko.com,REJECT,extended-matching,pre-matching
 DOMAIN,log16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
 DOMAIN,mon16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
