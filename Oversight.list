@@ -477,6 +477,10 @@ DOMAIN-SUFFIX,time.com
 DOMAIN-SUFFIX,timeinc.net
 DOMAIN-SUFFIX,tiny.cc
 DOMAIN-SUFFIX,tinypic.com
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,tenor.com
+DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,tmblr.co
 DOMAIN-SUFFIX,todoist.com
 DOMAIN-SUFFIX,trello.com
@@ -548,6 +552,11 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,zdassets.com
 DOMAIN-KEYWORD,gmail
 IP-CIDR,1.201.0.0/24,no-resolve
+IP-CIDR,50.117.27.0/24,no-resolve
+IP-CIDR,63.251.124.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+IP-CIDR,205.164.56.0/24,no-resolve
+IP-CIDR,205.164.56.29/24,no-resolve
 IP-CIDR,103.2.28.0/24,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve
 IP-CIDR,103.246.56.0/22,no-resolve
