@@ -6,6 +6,7 @@
 
 [Rule]
 # 广告过滤
+DOMAIN,aone.alibaba-inc.com,REJECT,extended-matching,pre-matching
 DOMAIN,dev.g.alicdn.com,REJECT,extended-matching,pre-matching
 DOMAIN,vegslb.com,REJECT,extended-matching,pre-matching
 DOMAIN,smogfly.cloud,REJECT,extended-matching,pre-matching
