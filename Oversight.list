@@ -5,6 +5,8 @@ DOMAIN,steampipe.akamaized.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,surge.qingr.mo
+DOMAIN,tikvid.io
 DOMAIN-SUFFIX,91selfie.com
 DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,about.google
@@ -434,6 +436,7 @@ DOMAIN-SUFFIX,responsys.net
 DOMAIN-SUFFIX,rime.im
 DOMAIN-SUFFIX,roborecall.com
 DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,servebom.com
 DOMAIN-SUFFIX,servers.xeton.dev
 DOMAIN-SUFFIX,sfx.ms
@@ -443,6 +446,7 @@ DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,shazam.com
 DOMAIN-SUFFIX,shrtm.nu
 DOMAIN-SUFFIX,singular.net
+DOMAIN-SUFFIX,skk.mo
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,smaato.net
 DOMAIN-SUFFIX,smartdnsProxy.com
@@ -453,6 +457,7 @@ DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,sourceforge.net
 DOMAIN-SUFFIX,spadsync.com
 DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,squarespace.com
 DOMAIN-SUFFIX,squarespace.domains
 DOMAIN-SUFFIX,sstatic.net
