@@ -1,4 +1,7 @@
 DOMAIN,cloud.oracle.com
+DOMAIN,featureassets.org
+DOMAIN,grok-v2.x.ai
+DOMAIN,prodregistryv2.org
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steampipe.akamaized.net
@@ -354,6 +357,7 @@ DOMAIN-SUFFIX,mindnode.com
 DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,mobilefuse.com
+DOMAIN-SUFFIX,mobile-messenger.intercom.com
 DOMAIN-SUFFIX,modmyi.com
 DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,msftncsi.com
