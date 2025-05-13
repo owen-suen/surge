@@ -110,6 +110,8 @@ http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tacti
 http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",2]])'
 
 [Rewrite]
+# 水印相机
+^https:\/\/api\.xiangji\.qq\.com\/splash$ - reject
 # 中石油去开屏广告发现
 ^https:\/\/app\.95504\.net\/app\/json\/page_ad\/initPageAd\?ver= - reject
 # 中油好客e站小程序弹窗广告
@@ -164,4 +166,4 @@ M Stand去广告 = type=http-response, pattern=^https:\/\/api\.prod\.dj\.mstand\
 EMS中国邮政物流速递去广告 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% app.95504.net, minipro.95504.net, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, app.homeinns.com, wx.bthhotels.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com, apimobile.meituan.com, mapi.dianping.com, web.meituan.com, npay.meituan.com
+hostname = %APPEND% app.95504.net, minipro.95504.net, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, app.homeinns.com, wx.bthhotels.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com, apimobile.meituan.com, mapi.dianping.com, api.xiangji.qq.com, web.meituan.com, npay.meituan.com
