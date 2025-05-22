@@ -138,4 +138,4 @@ http-response-jq ^https:\/\/rms\.meituan\.com\/api\/v1\/rmsmina\/c\/queryShopPor
 
 
 [MITM]
-hostname = %APPEND% api.hellobike.com, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com, apimobile.meituan.com, mapi.dianping.com, rms.meituan.com, web.meituan.com, npay.meituan.com
+hostname = %APPEND% ucmp.sf-express.com, api.hellobike.com, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com, apimobile.meituan.com, mapi.dianping.com, rms.meituan.com, web.meituan.com, npay.meituan.com
