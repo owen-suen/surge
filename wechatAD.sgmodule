@@ -111,7 +111,7 @@ http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tacti
 
 [Rewrite]
 # 水印相机
-^https:\/\/api\.xiangji\.qq\.com\/splash$ - reject
+^https:\/\/api\.xiangji\.qq\.com\/splash$ data-type=text data="{}" status-code=200
 # 中石油去开屏广告发现
 ^https:\/\/app\.95504\.net\/app\/json\/page_ad\/initPageAd\?ver= - reject
 # 中油好客e站小程序弹窗广告
