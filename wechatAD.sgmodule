@@ -101,6 +101,10 @@ DOMAIN-SUFFIX,zconfig.alibabausercontent.com,REJECT,extended-matching,pre-matchi
 DOMAIN-SUFFIX,zconfig.alibabausercontent.com,REJECT,extended-matching,pre-matching
 DOMAIN-KEYWORD,trace.qq.com,REJECT,extended-matching,pre-matching
 
+[URL Rewrite]
+# 乘车码 ccmsupport-sz.tenpay.com
+^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
+
 [Script]
 微信外部链接解锁 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://kelee.one/Resource/Script/Weixin/Weixin_external_links_unlock.js, requires-body=true
 # M Stand api.prod.dj.mstand.cn, api.prod.dj.mstand.cn
@@ -109,30 +113,11 @@ M Stand去广告 = type=http-response, pattern=^https:\/\/api\.prod\.dj\.mstand\
 EMS中国邮政物流速递去广告 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js, requires-body=true
 
 [Body Rewrite]
-http-response-jq ^https:\/\/mcsp\.cloudpnr\.com\/api\/miniapp\/popular\/T_MINIAPP$ 'delpaths([["data"]])'
-http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",0]])'
-http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",1]])'
-http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",2]])'
+http-response-jq ^https:\/\/rms\.meituan\.com\/api\/v1\/rmsmina\/c\/queryShopPortalInfo\? 'delpaths([["data","popUpWindows"]])'
 
 [Map Local]
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? data-type=text data="{}" status-code=200
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedsearchword data-type=text data="{}" status-code=200
-
-[Rewrite]
-# 水印相机
-^https:\/\/api\.xiangji\.qq\.com\/splash$ data-type=text data="{}" status-code=200
-# 中石油去开屏广告发现
-^https:\/\/app\.95504\.net\/app\/json\/page_ad\/initPageAd\?ver= - reject
-# 中油好客e站小程序弹窗广告
-^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData - reject
-# 中油好客e站小程序底部横幅广告
-^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getIndexAdData - reject
-# 乘车码 @jinlvei ccmsupport-sz.tenpay.com
-^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
-# 星巴克 3pp.starbucks.com.cn
-^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup data-type=text data="{}" status-code=200
-^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner data-type=text data="{}" status-code=200
-^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/global data-type=text data="{}" status-code=200
 # 货拉拉 qapi.huolala.cn, appuser-static.huolala.cn
 ^https:\/\/qapi\.huolala\.cn\/ads data-type=text data="{}" status-code=200
 ^https:\/\/qapi\.huolala\.cn\/home_new_user data-type=text data="{}" status-code=200
@@ -140,29 +125,17 @@ http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tacti
 ^https:\/\/appuser-static\.huolala\.cn\/imgs data-type=text data="{}" status-code=200
 # 华住会 api-fouth-mem.huazhu.com
 ^https:\/\/api-fouth-mem\.huazhu\.com\/api\/rights\/bannerList data-type=text data="{}" status-code=200
-# 首旅如家 app.homeinns.com, wx.bthhotels.com
-^https:\/\/wx\.bthhotels\.com\/miniapp\/weixin\/v1\/home\/index_banner data-type=text data="{}" status-code=200
-^https:\/\/app\.homeinns\.com\/api\/v6\/indexs data-type=text data="{}" status-code=200
-^https:\/\/app\.homeinns\.com\/api\/v5\/local data-type=text data="{}" status-code=200
-^https:\/\/app\.homeinns\.com\/api\/v5\/index data-type=text data="{}" status-code=200
 # 携程旅行 m.ctrip.com
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds data-type=text data="{}" status-code=200
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent data-type=text data="{}" status-code=200
-# 顺丰速运+ @可莉🅥
+# 顺丰速运+
 ^https:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query data-type=text data="{}" status-code=200
 ^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList data-type=text data="{}" status-code=200
-# Meituan
-^http:\/\/103\.37\.155\.60\/fetch data-type=text data="{}" status-code=200
-^https:\/\/mapi\.dianping\.com\/baymax\/adrec\/getrecads data-type=text data="{}" status-code=200
-^https:\/\/mapi\.dianping\.com\/baymax\/getSlotAds url data-type=text data="{}" status-code=200
-美团 = type=http-response, pattern=^https:\/\/web\.meituan\.com\/api\/miniprogram\/tabbar\/all\/query, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/MeiTuanNoAd.js, requires-body=true
-美团 = type=http-response, pattern=^https:\/\/web\.meituan\.com\/api\/miniprogram\/index\/aggregate, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/MeiTuanNoAd.js, requires-body=true
-^https:\/\/web\.meituan\.com\/api\/miniprogram\/my\/novelZone data-type=text data="{}" status-code=200
-^https:\/\/web\.meituan\.com\/api\/miniprogram\/my\/resources data-type=text data="{}" status-code=200
-^https:\/\/npay\.meituan\.com\/conch\/flow\/mypage-wallet-info data-type=text data="{}" status-code=200
-^https:\/\/web\.meituan\.com\/newUser\/returnMoney\/popWindow url data-type=text data="{}" status-code=200
-^https:\/\/npay\.meituan\.com\/conch\/walletv3\/wechat-pop-window data-type=text data="{}" status-code=200
-^https:\/\/apimobile\.meituan\.com\/group\/v1\/deal\/searchpage\/defaultword data-type=text data="{}" status-code=200
+# 哈喽单车
+^https:\/\/api\.hellobike\.com\/api\?adx data-type=text data="{}" status-code=200
+
+
+
 
 [MITM]
-hostname = %APPEND% app.95504.net, minipro.95504.net, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, app.homeinns.com, wx.bthhotels.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com, apimobile.meituan.com, mapi.dianping.com, api.xiangji.qq.com, web.meituan.com, npay.meituan.com
+hostname = %APPEND% api.hellobike.com, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com, apimobile.meituan.com, mapi.dianping.com, rms.meituan.com, web.meituan.com, npay.meituan.com
