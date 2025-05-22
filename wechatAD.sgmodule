@@ -109,6 +109,10 @@ http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tacti
 http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",1]])'
 http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad$ 'delpaths([["data",2]])'
 
+[Map Local]
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? data-type=text data="{}" status-code=200
+^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedsearchword data-type=text data="{}" status-code=200
+
 [Rewrite]
 # 水印相机
 ^https:\/\/api\.xiangji\.qq\.com\/splash$ data-type=text data="{}" status-code=200
@@ -120,9 +124,6 @@ http-response-jq ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tacti
 ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getIndexAdData - reject
 # 乘车码 @jinlvei ccmsupport-sz.tenpay.com
 ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
-# 移除公众号中的推广内容 //mp.weixin.qq.com
-^http:\/\/\w+\.wxs\.qq\.com\/\d+\/\d+\/(snscosdownload|snssvpdownload)\/(SH|SZ)\/reserved\/\w+ data-type=text data="{}" status-code=200
-^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? data-type=text data="{}" status-code=200
 # 星巴克 3pp.starbucks.com.cn
 ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup data-type=text data="{}" status-code=200
 ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner data-type=text data="{}" status-code=200
