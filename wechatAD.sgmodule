@@ -107,8 +107,6 @@ DOMAIN-KEYWORD,trace.qq.com,REJECT,extended-matching,pre-matching
 
 [Script]
 微信外部链接解锁 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://kelee.one/Resource/Script/Weixin/Weixin_external_links_unlock.js, requires-body=true
-# M Stand api.prod.dj.mstand.cn, api.prod.dj.mstand.cn
-M Stand去广告 = type=http-response, pattern=^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/M_Stand/M_Stand.js, requires-body=true
 # EMS中国邮政物流速递 @TEAXS ump.ems.com.cn
 EMS中国邮政物流速递去广告 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js, requires-body=true
 
@@ -134,8 +132,5 @@ http-response-jq ^https:\/\/rms\.meituan\.com\/api\/v1\/rmsmina\/c\/queryShopPor
 # 哈喽单车
 ^https:\/\/api\.hellobike\.com\/api\?adx data-type=text data="{}" status-code=200
 
-
-
-
 [MITM]
-hostname = %APPEND% ucmp.sf-express.com, api.hellobike.com, api.prod.dj.mstand.cn, api-fouth-mem.huazhu.com, api.prod.dj.mstand.cn, ump.ems.com.cn, ccmsupport-sz.tenpay.com, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, ccmsupport-sz.tenpay.com, apimobile.meituan.com, mapi.dianping.com, rms.meituan.com, web.meituan.com, npay.meituan.com
+hostname = %APPEND% ucmp.sf-express.com, api.hellobike.com, api-fouth-mem.huazhu.com, ump.ems.com.cn, ccmsupport-sz.tenpay.com, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, apimobile.meituan.com, mapi.dianping.com, rms.meituan.com, web.meituan.com, npay.meituan.com
