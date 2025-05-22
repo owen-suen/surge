@@ -1,8 +1,6 @@
 #!name=小程序去广告
 #!desc=小程序去广告
 #!homepage=
-#!author=
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Weixin.png
 
 [Rule]
 # 广告过滤
