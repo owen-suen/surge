@@ -125,6 +125,8 @@ http-response-jq ^https:\/\/rms\.meituan\.com\/api\/v1\/rmsmina\/c\/queryShopPor
 ^https:\/\/appuser-static\.huolala\.cn\/imgs data-type=text data="{}" status-code=200
 # 华住会 api-fouth-mem.huazhu.com
 ^https:\/\/api-fouth-mem\.huazhu\.com\/api\/rights\/bannerList data-type=text data="{}" status-code=200
+# 水印相机
+^https:\/\/api\.xiangji\.qq\.com\/splash$ data-type=text data="{}" status-code=200
 # 携程旅行 m.ctrip.com
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds data-type=text data="{}" status-code=200
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent data-type=text data="{}" status-code=200
@@ -137,4 +139,4 @@ http-response-jq ^https:\/\/rms\.meituan\.com\/api\/v1\/rmsmina\/c\/queryShopPor
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo data-type=text data="{}" status-code=200
 
 [MITM]
-hostname = %APPEND% ucmp.sf-express.com, api-sams.walmartmobile.cn, api.hellobike.com, api-fouth-mem.huazhu.com, ump.ems.com.cn, ccmsupport-sz.tenpay.com, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, apimobile.meituan.com, mapi.dianping.com, rms.meituan.com, web.meituan.com, npay.meituan.com, ocrifs.ejoy.sinopec.com
+hostname = %APPEND% ucmp.sf-express.com, api-sams.walmartmobile.cn, api.xiangji.qq.com, api.hellobike.com, api-fouth-mem.huazhu.com, ump.ems.com.cn, ccmsupport-sz.tenpay.com, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, apimobile.meituan.com, mapi.dianping.com, rms.meituan.com, web.meituan.com, npay.meituan.com, ocrifs.ejoy.sinopec.com
