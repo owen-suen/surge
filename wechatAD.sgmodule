@@ -108,7 +108,7 @@ DOMAIN-KEYWORD,trace.qq.com,REJECT,extended-matching,pre-matching
 [Script]
 微信外部链接解锁 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js, requires-body=true
 # EMS中国邮政物流速递 @TEAXS ump.ems.com.cn
-EMS中国邮政物流速递去广告 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js, requires-body=true
+# EMS中国邮政物流速递去广告 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js, requires-body=true
 
 [Body Rewrite]
 http-response-jq ^https:\/\/rms\.meituan\.com\/api\/v1\/rmsmina\/c\/queryShopPortalInfo\? 'delpaths([["data","popUpWindows"]])'
