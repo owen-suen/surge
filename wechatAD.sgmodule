@@ -5,6 +5,7 @@
 [Rule]
 # 广告过滤
 DOMAIN,aone.alibaba-inc.com,REJECT,extended-matching,pre-matching
+DOMAIN,a.rdt.tfogc.com,REJECT,extended-matching,pre-matching
 DOMAIN,bytegecko.com,REJECT,extended-matching,pre-matching
 DOMAIN,dev.g.alicdn.com,REJECT,extended-matching,pre-matching
 DOMAIN,hudong.alicdn.com,REJECT,extended-matching,pre-matching
