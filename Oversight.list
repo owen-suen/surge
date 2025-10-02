@@ -57,6 +57,7 @@ DOMAIN-SUFFIX,armorgames.com
 DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,att.com
+DOMAIN-SUFFIX,awswaf.com
 DOMAIN-SUFFIX,awsstatic.com
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,azurewebsites.net
@@ -285,6 +286,7 @@ DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,hostodo.com
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,iana.org
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,ibllc.com
