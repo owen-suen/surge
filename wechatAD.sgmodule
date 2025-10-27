@@ -11,6 +11,7 @@ DOMAIN,ads.trafficjunky.net,REJECT,extended-matching,pre-matching
 DOMAIN,a.rdt.tfogc.com,REJECT,extended-matching,pre-matching
 DOMAIN,bytegecko.com,REJECT,extended-matching,pre-matching
 DOMAIN,dev.g.alicdn.com,REJECT,extended-matching,pre-matching
+DOMAIN,heic.alicdn.com,REJECT,extended-matching,pre-matching
 DOMAIN,hudong.alicdn.com,REJECT,extended-matching,pre-matching
 DOMAIN,log16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
 DOMAIN,mon16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
@@ -55,6 +56,7 @@ DOMAIN-SUFFIX,forter.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,gepush.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,ggc.cmvideo.cn,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,hd2.3g.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,extended-matching,pre-matching
 DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,hiaiabc.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,im-x.jd.com,REJECT,extended-matching,pre-matching
