@@ -56,7 +56,7 @@ DOMAIN-SUFFIX,forter.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,gepush.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,ggc.cmvideo.cn,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,hd2.3g.qq.com,REJECT,extended-matching,pre-matching
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com,extended-matching,pre-matching
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,hiaiabc.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,im-x.jd.com,REJECT,extended-matching,pre-matching
