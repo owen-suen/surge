@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appshopper.com
+DOMAIN-SUFFIX,appsflayer.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,arcgis.com
@@ -68,6 +69,15 @@ DOMAIN-SUFFIX,battlebreakers.com
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bigbeans.solutions
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,bit.com
 DOMAIN-SUFFIX,bit.ly
@@ -100,6 +110,12 @@ DOMAIN-SUFFIX,cloudmagic.com
 DOMAIN-SUFFIX,cloudns.net
 DOMAIN-SUFFIX,cmail19.com
 DOMAIN-SUFFIX,cnet.com
+DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX,cnn.io
+DOMAIN-SUFFIX,cnn.it
+DOMAIN-SUFFIX,cnnarabic.com
+DOMAIN-SUFFIX,cnnlabs.com
+DOMAIN-SUFFIX,cnnmoney.ch
 DOMAIN-SUFFIX,cocoapods.org
 DOMAIN-SUFFIX,com.google
 DOMAIN-SUFFIX,comodoca.com
@@ -246,7 +262,6 @@ DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubuniverse.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,globalsign.com
-DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,golang.org
@@ -457,6 +472,8 @@ DOMAIN-SUFFIX,responsys.net
 DOMAIN-SUFFIX,rime.im
 DOMAIN-SUFFIX,roborecall.com
 DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,search.brave.com
 DOMAIN-SUFFIX,servebom.com
@@ -591,8 +608,6 @@ DOMAIN-SUFFIX,ying.com
 DOMAIN-SUFFIX,yoyo.org
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,zdassets.com
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,abema
 DOMAIN-KEYWORD,appledaily
 DOMAIN-KEYWORD,avtb
@@ -602,7 +617,6 @@ DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,onedrive
