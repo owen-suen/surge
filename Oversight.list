@@ -9,7 +9,6 @@ DOMAIN,featureassets.org
 DOMAIN,grok-v2.x.ai
 DOMAIN,imap-mail.outlook.com
 DOMAIN,imap.gmail.com
-DOMAIN,lucida.to
 DOMAIN,mucp.api.account.microsoft.com
 DOMAIN,outlook.office365.com
 DOMAIN,pop.gmail.com
@@ -379,6 +378,7 @@ DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,linux.org
+DOMAIN-SUFFIX,lucida.to
 DOMAIN-SUFFIX,m.hotmail.com
 DOMAIN-SUFFIX,macid.co
 DOMAIN-SUFFIX,macromedia.com
