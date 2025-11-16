@@ -9,6 +9,7 @@ DOMAIN,featureassets.org
 DOMAIN,grok-v2.x.ai
 DOMAIN,imap-mail.outlook.com
 DOMAIN,imap.gmail.com
+DOMAIN,mucp.api.account.microsoft.com
 DOMAIN,outlook.office365.com
 DOMAIN,pop.gmail.com
 DOMAIN,prodregistryv2.org
@@ -400,7 +401,9 @@ DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,mobile-messenger.intercom.com
 DOMAIN-SUFFIX,modmyi.com
+DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,mux.com
 DOMAIN-SUFFIX,myfontastic.com
