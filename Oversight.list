@@ -3,6 +3,7 @@ DOMAIN,api.iturrit.com
 DOMAIN,apple.imap.mail.yahoo.com
 DOMAIN,apple.smtp.mail.yahoo.com
 DOMAIN,cdn.rawgit.com
+DOMAIN,cdn.hk01.com
 DOMAIN,cloud.oracle.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,featureassets.org
@@ -13,6 +14,7 @@ DOMAIN,mucp.api.account.microsoft.com
 DOMAIN,outlook.office365.com
 DOMAIN,pop.gmail.com
 DOMAIN,prodregistryv2.org
+DOMAIN,sing-box.sagernet.org
 DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
@@ -108,6 +110,7 @@ DOMAIN-SUFFIX,browserscan.net
 DOMAIN-SUFFIX,btc620.com
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,cdn77.org
+DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,cisco.com
 DOMAIN-SUFFIX,cl.ly
