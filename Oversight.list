@@ -650,6 +650,9 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
+IP-CIDR,4.217.0.0/16,no-resolve
+IP-CIDR,20.184.0.0/16,no-resolve
+IP-CIDR,172.207.0.0/16,no-resolve
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,13.248.139.0/24,no-resolve
 IP-CIDR,50.117.27.0/24,no-resolve
