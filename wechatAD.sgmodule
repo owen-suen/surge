@@ -13,7 +13,6 @@ DOMAIN,a.rdt.tfogc.com,REJECT,extended-matching,pre-matching
 DOMAIN,bytegecko.com,REJECT,extended-matching,pre-matching
 DOMAIN,dev.g.alicdn.com,REJECT,extended-matching,pre-matching
 DOMAIN,hudong.alicdn.com,REJECT,extended-matching,pre-matching
-DOMAIN,log16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
 DOMAIN,rtlog16-normal-useast5.tiktokv.us,REJECT,extended-matching,pre-matching
 DOMAIN,smogfly.cloud,REJECT,extended-matching,pre-matching
 DOMAIN,sdk.e.qq.com you,REJECT,extended-matching,pre-matching
