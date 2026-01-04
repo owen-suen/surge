@@ -341,6 +341,9 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imore.com
 DOMAIN-SUFFIX,immortalwrt.org
+DOMAIN-SUFFIX,improd.top
+DOMAIN-SUFFIX,improd.pro
+DOMAIN-SUFFIX,improd.works
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,inner-active.mobi
 DOMAIN-SUFFIX,instapaper.com
@@ -405,6 +408,7 @@ DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,mobile-messenger.intercom.com
 DOMAIN-SUFFIX,modmyi.com
+DOMAIN-SUFFIX,monad.xyz
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,msftauth.net
